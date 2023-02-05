@@ -16,6 +16,8 @@
 		49070621299064A000FBCCEC /* DisneydexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49070620299064A000FBCCEC /* DisneydexTests.swift */; };
 		4907062B299064A000FBCCEC /* DisneydexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4907062A299064A000FBCCEC /* DisneydexUITests.swift */; };
 		4907062D299064A000FBCCEC /* DisneydexUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4907062C299064A000FBCCEC /* DisneydexUITestsLaunchTests.swift */; };
+		4907063C29906E9200FBCCEC /* GetCharactersApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4907063B29906E9200FBCCEC /* GetCharactersApiResponse.swift */; };
+		4907063E29906F0200FBCCEC /* DisneyCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4907063D29906F0200FBCCEC /* DisneyCharacter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		49070626299064A000FBCCEC /* DisneydexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DisneydexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4907062A299064A000FBCCEC /* DisneydexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneydexUITests.swift; sourceTree = "<group>"; };
 		4907062C299064A000FBCCEC /* DisneydexUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneydexUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4907063B29906E9200FBCCEC /* GetCharactersApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCharactersApiResponse.swift; sourceTree = "<group>"; };
+		4907063D29906F0200FBCCEC /* DisneyCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyCharacter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				49070612299064A000FBCCEC /* Assets.xcassets */,
 				49070614299064A000FBCCEC /* LaunchScreen.storyboard */,
 				49070617299064A000FBCCEC /* Info.plist */,
+				4907063B29906E9200FBCCEC /* GetCharactersApiResponse.swift */,
+				4907063D29906F0200FBCCEC /* DisneyCharacter.swift */,
 			);
 			path = Disneydex;
 			sourceTree = "<group>";
@@ -260,6 +266,8 @@
 			files = (
 				4907060E2990649F00FBCCEC /* ViewController.swift in Sources */,
 				4907060A2990649F00FBCCEC /* AppDelegate.swift in Sources */,
+				4907063C29906E9200FBCCEC /* GetCharactersApiResponse.swift in Sources */,
+				4907063E29906F0200FBCCEC /* DisneyCharacter.swift in Sources */,
 				4907060C2990649F00FBCCEC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
