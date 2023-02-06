@@ -18,6 +18,7 @@
 		4907062D299064A000FBCCEC /* DisneydexUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4907062C299064A000FBCCEC /* DisneydexUITestsLaunchTests.swift */; };
 		4907063C29906E9200FBCCEC /* GetCharactersApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4907063B29906E9200FBCCEC /* GetCharactersApiResponse.swift */; };
 		4907063E29906F0200FBCCEC /* DisneyCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4907063D29906F0200FBCCEC /* DisneyCharacter.swift */; };
+		490706422990F58300FBCCEC /* DisneyDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490706412990F58300FBCCEC /* DisneyDataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		4907062C299064A000FBCCEC /* DisneydexUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneydexUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4907063B29906E9200FBCCEC /* GetCharactersApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCharactersApiResponse.swift; sourceTree = "<group>"; };
 		4907063D29906F0200FBCCEC /* DisneyCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyCharacter.swift; sourceTree = "<group>"; };
+		490706412990F58300FBCCEC /* DisneyDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyDataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				49070617299064A000FBCCEC /* Info.plist */,
 				4907063B29906E9200FBCCEC /* GetCharactersApiResponse.swift */,
 				4907063D29906F0200FBCCEC /* DisneyCharacter.swift */,
+				490706412990F58300FBCCEC /* DisneyDataService.swift */,
 			);
 			path = Disneydex;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4907060E2990649F00FBCCEC /* ViewController.swift in Sources */,
+				490706422990F58300FBCCEC /* DisneyDataService.swift in Sources */,
 				4907060A2990649F00FBCCEC /* AppDelegate.swift in Sources */,
 				4907063C29906E9200FBCCEC /* GetCharactersApiResponse.swift in Sources */,
 				4907063E29906F0200FBCCEC /* DisneyCharacter.swift in Sources */,
