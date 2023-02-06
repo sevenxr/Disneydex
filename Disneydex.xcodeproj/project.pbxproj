@@ -18,6 +18,7 @@
 		4907062D299064A000FBCCEC /* DisneydexUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4907062C299064A000FBCCEC /* DisneydexUITestsLaunchTests.swift */; };
 		4907063C29906E9200FBCCEC /* GetCharactersApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4907063B29906E9200FBCCEC /* GetCharactersApiResponse.swift */; };
 		4907063E29906F0200FBCCEC /* DisneyCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4907063D29906F0200FBCCEC /* DisneyCharacter.swift */; };
+		49070640299070EE00FBCCEC /* CharacterListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4907063F299070EE00FBCCEC /* CharacterListViewModel.swift */; };
 		490706422990F58300FBCCEC /* DisneyDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490706412990F58300FBCCEC /* DisneyDataService.swift */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,7 @@
 		4907062C299064A000FBCCEC /* DisneydexUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneydexUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4907063B29906E9200FBCCEC /* GetCharactersApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCharactersApiResponse.swift; sourceTree = "<group>"; };
 		4907063D29906F0200FBCCEC /* DisneyCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyCharacter.swift; sourceTree = "<group>"; };
+		4907063F299070EE00FBCCEC /* CharacterListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListViewModel.swift; sourceTree = "<group>"; };
 		490706412990F58300FBCCEC /* DisneyDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyDataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,6 +116,7 @@
 				49070617299064A000FBCCEC /* Info.plist */,
 				4907063B29906E9200FBCCEC /* GetCharactersApiResponse.swift */,
 				4907063D29906F0200FBCCEC /* DisneyCharacter.swift */,
+				4907063F299070EE00FBCCEC /* CharacterListViewModel.swift */,
 				490706412990F58300FBCCEC /* DisneyDataService.swift */,
 			);
 			path = Disneydex;
@@ -272,6 +275,7 @@
 				4907060A2990649F00FBCCEC /* AppDelegate.swift in Sources */,
 				4907063C29906E9200FBCCEC /* GetCharactersApiResponse.swift in Sources */,
 				4907063E29906F0200FBCCEC /* DisneyCharacter.swift in Sources */,
+				49070640299070EE00FBCCEC /* CharacterListViewModel.swift in Sources */,
 				4907060C2990649F00FBCCEC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
