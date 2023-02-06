@@ -21,3 +21,18 @@ struct DisneyCharacter {
     var allies: [String]
     var enemies: [String]
 }
+
+extension DisneyCharacter: Decodable {
+    enum CodingKeys: String, CodingKey {
+        case id = "_id"
+        case name, imageUrl, url
+        
+        case films
+        case shortFilms
+        case tvShows
+        case videoGames
+        case parkAttractions
+        case allies
+        case enemies
+    }
+}

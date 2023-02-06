@@ -11,5 +11,7 @@ struct GetCharactersApiResponse {
     var data: [DisneyCharacter]
     var count: Int
     var totalPages: Int
-    var nextPage: URL
+    var nextPage: URL?
 }
+
+extension GetCharactersApiResponse: Decodable {}
