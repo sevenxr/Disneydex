@@ -113,6 +113,9 @@
 		490706082990649F00FBCCEC /* Disneydex */ = {
 			isa = PBXGroup;
 			children = (
+				4907064C2991617E00FBCCEC /* CharacterList */,
+				4907064B2991615500FBCCEC /* Networking */,
+				4907064A2991614A00FBCCEC /* Model */,
 				490706092990649F00FBCCEC /* AppDelegate.swift */,
 				4907060B2990649F00FBCCEC /* SceneDelegate.swift */,
 				4907060D2990649F00FBCCEC /* ViewController.swift */,
@@ -120,13 +123,6 @@
 				49070612299064A000FBCCEC /* Assets.xcassets */,
 				49070614299064A000FBCCEC /* LaunchScreen.storyboard */,
 				49070617299064A000FBCCEC /* Info.plist */,
-				4907063B29906E9200FBCCEC /* GetCharactersApiResponse.swift */,
-				4907063D29906F0200FBCCEC /* DisneyCharacter.swift */,
-				4907063F299070EE00FBCCEC /* CharacterListViewModel.swift */,
-				490706412990F58300FBCCEC /* DisneyDataService.swift */,
-				4907064329915D7B00FBCCEC /* ImageFetcher.swift */,
-				4907064529915F8300FBCCEC /* DisneyCharacterListCell.swift */,
-				4907064729915FA900FBCCEC /* DisneyCharacterListCellPresenter.swift */,
 			);
 			path = Disneydex;
 			sourceTree = "<group>";
@@ -146,6 +142,42 @@
 				4907062C299064A000FBCCEC /* DisneydexUITestsLaunchTests.swift */,
 			);
 			path = DisneydexUITests;
+			sourceTree = "<group>";
+		};
+		49070649299160FF00FBCCEC /* DisneyCharacterListCell */ = {
+			isa = PBXGroup;
+			children = (
+				4907064529915F8300FBCCEC /* DisneyCharacterListCell.swift */,
+				4907064729915FA900FBCCEC /* DisneyCharacterListCellPresenter.swift */,
+			);
+			path = DisneyCharacterListCell;
+			sourceTree = "<group>";
+		};
+		4907064A2991614A00FBCCEC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4907063D29906F0200FBCCEC /* DisneyCharacter.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4907064B2991615500FBCCEC /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				4907063B29906E9200FBCCEC /* GetCharactersApiResponse.swift */,
+				490706412990F58300FBCCEC /* DisneyDataService.swift */,
+				4907064329915D7B00FBCCEC /* ImageFetcher.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		4907064C2991617E00FBCCEC /* CharacterList */ = {
+			isa = PBXGroup;
+			children = (
+				4907063F299070EE00FBCCEC /* CharacterListViewModel.swift */,
+				49070649299160FF00FBCCEC /* DisneyCharacterListCell */,
+			);
+			path = CharacterList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
