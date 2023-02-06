@@ -21,6 +21,8 @@
 		49070640299070EE00FBCCEC /* CharacterListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4907063F299070EE00FBCCEC /* CharacterListViewModel.swift */; };
 		490706422990F58300FBCCEC /* DisneyDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490706412990F58300FBCCEC /* DisneyDataService.swift */; };
 		4907064429915D7B00FBCCEC /* ImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4907064329915D7B00FBCCEC /* ImageFetcher.swift */; };
+		4907064629915F8300FBCCEC /* DisneyCharacterListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4907064529915F8300FBCCEC /* DisneyCharacterListCell.swift */; };
+		4907064829915FA900FBCCEC /* DisneyCharacterListCellPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4907064729915FA900FBCCEC /* DisneyCharacterListCellPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		4907063F299070EE00FBCCEC /* CharacterListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListViewModel.swift; sourceTree = "<group>"; };
 		490706412990F58300FBCCEC /* DisneyDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyDataService.swift; sourceTree = "<group>"; };
 		4907064329915D7B00FBCCEC /* ImageFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFetcher.swift; sourceTree = "<group>"; };
+		4907064529915F8300FBCCEC /* DisneyCharacterListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyCharacterListCell.swift; sourceTree = "<group>"; };
+		4907064729915FA900FBCCEC /* DisneyCharacterListCellPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyCharacterListCellPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,8 @@
 				4907063F299070EE00FBCCEC /* CharacterListViewModel.swift */,
 				490706412990F58300FBCCEC /* DisneyDataService.swift */,
 				4907064329915D7B00FBCCEC /* ImageFetcher.swift */,
+				4907064529915F8300FBCCEC /* DisneyCharacterListCell.swift */,
+				4907064729915FA900FBCCEC /* DisneyCharacterListCellPresenter.swift */,
 			);
 			path = Disneydex;
 			sourceTree = "<group>";
@@ -273,8 +279,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4907064829915FA900FBCCEC /* DisneyCharacterListCellPresenter.swift in Sources */,
 				4907060E2990649F00FBCCEC /* ViewController.swift in Sources */,
 				4907064429915D7B00FBCCEC /* ImageFetcher.swift in Sources */,
+				4907064629915F8300FBCCEC /* DisneyCharacterListCell.swift in Sources */,
 				490706422990F58300FBCCEC /* DisneyDataService.swift in Sources */,
 				4907060A2990649F00FBCCEC /* AppDelegate.swift in Sources */,
 				4907063C29906E9200FBCCEC /* GetCharactersApiResponse.swift in Sources */,
