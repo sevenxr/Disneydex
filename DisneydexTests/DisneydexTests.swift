@@ -32,5 +32,22 @@ class DisneydexTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+    
+    func test_CharacterListViewModel_nextUrl_returns_initialUrl_when_lastGetCharactersApiResponse_isNil() {
+        let viewModel = CharacterListViewModel()
+        XCTAssertEqual("https://api.disneyapi.dev/characters", viewModel.nextUrl?.absoluteString)
+    }
+    
+    func test_CharacterListViewModel_nextUrl_returns_urlFromLastResponse_when_lastGetCharactersApiResponse_isNotNil() {
+        var viewModel = CharacterListViewModel()
+        viewModel.lastGetCharactersApiResponse = GetCharactersApiResponse(data: [], count: -1, totalPages: -1, nextPage: URL(string: "https://api.disneyapi.dev/characters/2"))
+        XCTAssertEqual("https://api.disneyapi.dev/characters/2", viewModel.nextUrl?.absoluteString)
+    }
+    
+    func test_CharacterListViewModel_nextUrl_returns_nil_when_lastGetCharactersApiResponse_nextPage_isNil() {
+        var viewModel = CharacterListViewModel()
+        viewModel.lastGetCharactersApiResponse = GetCharactersApiResponse(data: [], count: -1, totalPages: -1, nextPage: nil)
+        XCTAssertNil(viewModel.nextUrl?.absoluteString)
+    }
 
 }
